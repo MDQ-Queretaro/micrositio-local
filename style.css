@@ -1,0 +1,331 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+
+   .div1 {
+
+      margin-top: 80px; 
+
+      margin-bottom: 80px;
+
+    }
+
+    .titulo {
+
+      margin-top: 5px; 
+
+      margin-bottom: 20px;
+
+
+
+
+
+    }
+
+    .seccion2 {
+
+      margin-top: 55px; 
+
+      margin-bottom: 20px;
+      text-align: center;
+
+    }
+
+    .hrstyle {
+
+    border: 0;
+
+    height: 1px;
+
+    margin-top: 25px;
+
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(36, 173, 210, 1), rgba(0, 0, 0, 0));
+
+    }
+
+    #siright {
+
+      margin-top: 25px;
+
+    }
+
+     div.gallery {
+
+    margin: 5px;
+
+    border: 0px solid #ccc;
+
+    text-align: center;
+
+    width: 170px;
+
+    height: 200px;
+
+}
+
+
+
+div.gallery:hover {
+
+    border: 0px;
+
+}
+
+
+
+div.gallery img {
+
+    width: auto;
+
+    height: auto;
+
+}
+
+@import url(http://fonts.googleapis.com/css?family=Istok+Web);
+
+@keyframes slidy {
+
+0% { left: 0%; }
+
+20% { left: 0%; }
+
+25% { left: -100%; }
+
+45% { left: -100%; }
+
+50% { left: -200%; }
+
+70% { left: -200%; }
+
+75% { left: -300%; }
+
+95% { left: -300%; }
+
+100% { left: -400%; }
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+body, figure { 
+
+
+
+  font-family: Istok Web, sans-serif;
+
+  font-weight: 100;
+
+}
+
+div#captioned-gallery { 
+
+  width: 100%; overflow: hidden; 
+
+}
+
+figure.slider { 
+
+  position: relative; width: 500%;
+
+  font-size: 0; animation: 30s slidy infinite; 
+
+}
+
+figure.slider figure { 
+
+  width: 20%; height: auto;
+
+  display: inline-block;  position: inherit; 
+
+}
+
+figure.slider img { width: 100%; height: auto; }
+
+figure.slider figure figcaption { 
+
+  position: absolute; bottom: 0;
+
+  background: rgba(0,0,0,0.4);
+
+  color: #fff; width: 100%;
+
+  font-size: 2rem; padding: .6rem; 
+
+}
+.ccc {
+   font-family: 'Roboto', sans-serif;
+   font-size: 2.5rem;
+   color: #13326D;
+
+}
+
+.encabezado-footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #13326D;
+
+}
+.footer-text {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2rem;
+   color: #13326D;
+}
+.footertext {
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.6rem;
+   color: #ffffff;
+
+}
+
+@font-face {
+    font-family: 'si';
+    src: url('socicon/socicon.eot');
+    src: url('socicon/socicon.eot?#iefix') format('embedded-opentype'),
+         url('socicon/socicon.woff') format('woff'),
+         url('socicon/socicon.ttf') format('truetype'),
+         url('socicon/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'\e041';
+}
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'\e040';
+}
+.soc-instagram {
+    background-color: #405de6;
+}
+.soc-instagram:before {
+    content:'\e057';
+}
+.soc-youtube {
+    background-color: #e02a20;
+}
+.soc-youtube:before {
+    content:'\e051';
+}
+.hiper {
+   font-family: 'Roboto', sans-serif;
+   font-size: .90rem;
+   color: #ffffff;
+}
+a:hover {
+  color: #1B2631
+}
+
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 12 css */
+        /*
+        .jssora12l                  (normal)
+        .jssora12r                  (normal)
+        .jssora12l:hover            (normal mouseover)
+        .jssora12r:hover            (normal mouseover)
+        .jssora12l.jssora12ldn      (mousedown)
+        .jssora12r.jssora12rdn      (mousedown)
+        */
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
